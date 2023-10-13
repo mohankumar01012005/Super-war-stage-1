@@ -1,0 +1,55 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.maincontainer{
+  display: flex;
+  /* justify-content: center; */
+  margin-top: 10px;
+}
+.spidy,
+.wonderwoman,
+.captainamerica,
+.gemwoman{
+  border: 3px solid rgb(215,215,215);
+  border-radius:8px ;
+  text-align: center;
+  font-size: 20px;
+line-height: 20px;
+padding: 20px;
+width: 170px;
+height: 280px;
+}
+.spidy{
+  margin-left: 150px;
+}
+.wonderwoman{
+  margin-left: 20px;
+}
+.gemwoman{
+  margin-left: 20px;
+}
+.middlenumber{
+  margin-left: 10px;
+  font-size: 50px;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+.spidynumber,
+.wonderwomennumber,
+.captainamericanumber,
+.gemwomannumber{
+  font-size: 55px;
+  padding-bottom: 20px;
+  padding-top: 25px;
+}
+
+.wonderwoman,
+.captainamerica{
+  line-height: 20px;
+}
+.wonderwomennumber,
+  .captainamericanumber{
+    padding-top: 30px;
+}
